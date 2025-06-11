@@ -1,0 +1,415 @@
+\chapter{Statistical Analysis Plan Templates}
+
+\section{Template Statistical Analysis Plan for Digital Health Application Trial}
+
+\subsection{Study Overview}
+
+\begin{tcolorbox}[title=Study Information]
+\begin{tabular}{|p{4cm}|p{10cm}|}
+\hline
+\textbf{Protocol Title} & [Full Title of the Study] \\
+\hline
+\textbf{Protocol Number} & [Study Identifier] \\
+\hline
+\textbf{Primary Objective} & [Primary Research Question] \\
+\hline
+\textbf{Secondary Objectives} & [List of Secondary Research Questions] \\
+\hline
+\textbf{Study Design} & [Description of Study Design] \\
+\hline
+\textbf{Sample Size} & [Planned Number of Participants] \\
+\hline
+\textbf{Study Population} & [Key Inclusion/Exclusion Criteria] \\
+\hline
+\textbf{Study Duration} & [Length of Study] \\
+\hline
+\textbf{Statistical Analysis Plan Version} & [Version Number and Date] \\
+\hline
+\end{tabular}
+\end{tcolorbox}
+
+\subsection{Randomization and Blinding}
+
+\begin{itemize}
+    \item \textbf{Randomization Method}: [Describe the randomization procedure, e.g., stratified block randomization]
+    
+    \item \textbf{Allocation Ratio}: [Specify the ratio of participants in each arm, e.g., 1:1]
+    
+    \item \textbf{Stratification Factors}: [List any stratification variables used in randomization]
+    
+    \item \textbf{Blinding Procedures}: [Describe which study personnel are blinded to treatment assignment]
+    
+    \item \textbf{Unblinding Procedures}: [Describe circumstances under which unblinding may occur]
+\end{itemize}
+
+\subsection{Analysis Populations}
+
+\begin{itemize}
+    \item \textbf{Intent-to-Treat (ITT) Population}: All randomized participants, analyzed according to assigned treatment group regardless of protocol adherence.
+    
+    \item \textbf{Modified Intent-to-Treat (mITT) Population}: [Define specific criteria, e.g., all randomized participants who complete at least one post-baseline assessment]
+    
+    \item \textbf{Per-Protocol (PP) Population}: All participants who complete the study without major protocol deviations and with minimum specified application usage.
+    
+    \item \textbf{Safety Population}: All participants who receive the digital intervention and have at least one post-baseline safety assessment.
+\end{itemize}
+
+\subsection{Handling of Missing Data}
+
+\begin{itemize}
+    \item \textbf{Primary Approach}: [Specify primary method, e.g., mixed models for repeated measures]
+    
+    \item \textbf{Missing Data Patterns}: Patterns of missing data will be described and classified as Missing Completely at Random (MCAR), Missing at Random (MAR), or Missing Not at Random (MNAR).
+    
+    \item \textbf{Imputation Method}: [Describe imputation approach if applicable, e.g., multiple imputation]
+    
+    \item \textbf{Sensitivity Analyses}: [List planned sensitivity analyses to evaluate the robustness of results to missing data assumptions]
+\end{itemize}
+
+\subsection{Analysis of Primary Outcome}
+
+\begin{tcolorbox}[title=Primary Outcome Analysis]
+\begin{tabular}{|p{4cm}|p{10cm}|}
+\hline
+\textbf{Primary Outcome} & [Name and definition of primary outcome measure] \\
+\hline
+\textbf{Measurement Time Points} & [When outcome is assessed] \\
+\hline
+\textbf{Analysis Population} & [Usually Intent-to-Treat] \\
+\hline
+\textbf{Statistical Method} & [Specific test or model to be used] \\
+\hline
+\textbf{Covariates} & [Any adjustment variables to be included] \\
+\hline
+\textbf{Handling of Missing Data} & [Approach specific to primary outcome] \\
+\hline
+\textbf{Sensitivity Analyses} & [Alternative approaches to test robustness] \\
+\hline
+\end{tabular}
+\end{tcolorbox}
+
+\subsection{Analysis of Secondary Outcomes}
+
+For each secondary outcome, specify:
+
+\begin{itemize}
+    \item \textbf{Outcome Definition}: [Clear definition of the outcome measure]
+    
+    \item \textbf{Analysis Population}: [Population for this specific analysis]
+    
+    \item \textbf{Statistical Method}: [Test or model to be applied]
+    
+    \item \textbf{Multiplicity Adjustment}: [Method for controlling Type I error across multiple tests]
+\end{itemize}
+
+\subsection{Digital Health-Specific Analyses}
+
+\begin{itemize}
+    \item \textbf{Engagement Metrics Analysis}:
+    \begin{itemize}
+        \item Frequency of use (sessions per week)
+        \item Duration of use (minutes per session)
+        \item Feature utilization (proportion of available features used)
+        \item Engagement decay (change in usage patterns over time)
+    \end{itemize}
+    
+    \item \textbf{Dose-Response Analysis}:
+    \begin{itemize}
+        \item Definition of digital dose (e.g., total minutes of active use)
+        \item Statistical approach for relating dose to outcomes
+        \item Threshold analysis to identify minimum effective dose
+    \end{itemize}
+    
+    \item \textbf{Usage Pattern Analysis}:
+    \begin{itemize}
+        \item Clustering methods to identify usage typologies
+        \item Time-of-day usage patterns
+        \item Sequential pattern analysis of feature use
+    \end{itemize}
+\end{itemize}
+
+\subsection{Subgroup Analyses}
+
+\begin{itemize}
+    \item \textbf{Prespecified Subgroups}:
+    \begin{itemize}
+        \item Cognitive status (e.g., MCI vs. mild dementia)
+        \item Age groups
+        \item Technology experience levels
+        \item Presence/absence of caregiver support
+    \end{itemize}
+    
+    \item \textbf{Statistical Approach}: [Method for testing treatment effect heterogeneity, e.g., interaction terms in regression models]
+    
+    \item \textbf{Interpretation Guidance}: Subgroup analyses will be considered exploratory and hypothesis-generating rather than confirmatory.
+\end{itemize}
+
+\subsection{Safety Analysis}
+
+\begin{itemize}
+    \item \textbf{Adverse Event Tabulation}: Frequencies and percentages of adverse events by type, severity, and relatedness to the digital intervention.
+    
+    \item \textbf{Technology-Specific Safety Outcomes}: Analysis of technology-related adverse events such as privacy breaches, software malfunctions, or digital fatigue.
+    
+    \item \textbf{Psychological Safety Measures}: Analysis of measures related to distress, frustration, or other negative psychological responses to the intervention.
+\end{itemize}
+
+\subsection{Interim Analyses}
+
+\begin{itemize}
+    \item \textbf{Timing}: [When interim analyses will be conducted]
+    
+    \item \textbf{Purpose}: [Objectives of interim analyses, e.g., safety monitoring, futility assessment]
+    
+    \item \textbf{Statistical Methods}: [Approaches that account for multiple looks at the data]
+    
+    \item \textbf{Stopping Rules}: [Criteria that would lead to early termination]
+\end{itemize}
+
+\section{Example Statistical Analysis Code Templates}
+
+\subsection{R Code Template for Mixed Effects Model}
+
+\begin{tcolorbox}[title=R Code for Mixed Effects Model]
+\begin{verbatim}
+# Load required packages
+library(lme4)
+library(lmerTest)
+library(ggplot2)
+
+# Import and prepare data
+data <- read.csv("study_data.csv")
+
+# Define analysis population
+itt_population <- data[data$randomized == 1, ]
+
+# Create factor variables
+itt_population$treatment <- factor(itt_population$treatment, 
+                                  levels = c(0, 1), 
+                                  labels = c("Control", "Intervention"))
+itt_population$time <- factor(itt_population$visit)
+
+# Mixed effects model for repeated measures
+model <- lmer(outcome ~ treatment * time + baseline_score + 
+              age + gender + (1|subject_id), 
+              data = itt_population)
+
+# Summary of model results
+summary(model)
+
+# Extract treatment effect at final time point
+final_time <- max(as.numeric(itt_population$time))
+contrasts_result <- emmeans(model, ~ treatment | time)
+final_contrast <- contrast(contrasts_result[final_time], method = "pairwise")
+print(final_contrast)
+
+# Visualization of results
+ggplot(itt_population, aes(x = time, y = outcome, group = treatment, color = treatment)) +
+  stat_summary(fun = mean, geom = "point", size = 3) +
+  stat_summary(fun = mean, geom = "line") +
+  stat_summary(fun.data = mean_se, geom = "errorbar", width = 0.2) +
+  labs(title = "Change in Outcome Over Time by Treatment Group",
+       x = "Visit", y = "Outcome Score") +
+  theme_minimal()
+\end{verbatim}
+\end{tcolorbox}
+
+\subsection{R Code Template for Engagement Analysis}
+
+\begin{tcolorbox}[title=R Code for Engagement Analysis]
+\begin{verbatim}
+# Load required packages
+library(dplyr)
+library(ggplot2)
+library(cluster)
+
+# Import usage data
+usage_data <- read.csv("usage_logs.csv")
+
+# Calculate engagement metrics
+engagement <- usage_data %>%
+  group_by(subject_id) %>%
+  summarize(
+    total_sessions = n(),
+    avg_duration = mean(session_duration, na.rm = TRUE),
+    total_minutes = sum(session_duration, na.rm = TRUE),
+    days_used = n_distinct(as.Date(session_start)),
+    features_used = n_distinct(feature),
+    feature_diversity = n_distinct(feature) / n(),
+    longest_gap = max(diff(as.Date(session_start))),
+    pct_completed = mean(completed_session) * 100
+  )
+
+# Merge with outcome data
+merged_data <- inner_join(engagement, outcome_data, by = "subject_id")
+
+# Dose-response analysis
+dose_model <- lm(final_outcome ~ total_minutes + baseline_score + age + gender,
+                data = merged_data)
+summary(dose_model)
+
+# Non-linear dose effects
+dose_model_nl <- gam(final_outcome ~ s(total_minutes) + baseline_score + age + gender,
+                    data = merged_data)
+summary(dose_model_nl)
+plot(dose_model_nl)
+
+# Cluster analysis to identify usage patterns
+usage_matrix <- usage_data %>%
+  group_by(subject_id, feature) %>%
+  summarize(time_spent = sum(duration)) %>%
+  pivot_wider(names_from = feature, values_from = time_spent, values_fill = 0) %>%
+  select(-subject_id) %>%
+  scale()
+
+# Determine optimal number of clusters
+wss <- sapply(1:10, function(k) {
+  kmeans(usage_matrix, centers = k, nstart = 25)$tot.withinss
+})
+plot(1:10, wss, type = "b", xlab = "Number of Clusters", ylab = "Within-cluster Sum of Squares")
+
+# K-means clustering
+km <- kmeans(usage_matrix, centers = 3, nstart = 25)
+usage_clusters <- data.frame(subject_id = unique(usage_data$subject_id),
+                            cluster = km$cluster)
+
+# Analyze outcomes by engagement cluster
+cluster_analysis <- merged_data %>%
+  inner_join(usage_clusters, by = "subject_id") %>%
+  group_by(cluster) %>%
+  summarize(
+    n = n(),
+    mean_outcome = mean(final_outcome, na.rm = TRUE),
+    sd_outcome = sd(final_outcome, na.rm = TRUE)
+  )
+print(cluster_analysis)
+\end{verbatim}
+\end{tcolorbox}
+
+\subsection{STATA Code Template for Multiple Imputation}
+
+\begin{tcolorbox}[title=STATA Code for Multiple Imputation]
+\begin{verbatim}
+// Import data
+import delimited "study_data.csv", clear
+
+// Examine missing data patterns
+misstable patterns outcome_baseline outcome_week4 outcome_week8 outcome_week12
+
+// Multiple imputation
+mi set wide
+mi register imputed outcome_week4 outcome_week8 outcome_week12
+mi register regular subject_id treatment age gender outcome_baseline
+
+// Imputation model
+mi impute chained ///
+    (regress) outcome_week4 outcome_week8 outcome_week12 = ///
+    treatment age gender outcome_baseline, ///
+    add(20) rseed(12345)
+
+// Analysis of imputed data
+mi estimate, cmdok: mixed outcome_week12 treatment outcome_baseline age gender || site:
+
+// Sensitivity analysis with complete cases only
+preserve
+drop if missing(outcome_week12)
+mixed outcome_week12 treatment outcome_baseline age gender || site:
+restore
+
+// Visualize imputation results
+mi xeq 1/5: twoway (scatter outcome_week12 outcome_baseline), ///
+    subtitle("Imputation #`_mi_m'")
+\end{verbatim}
+\end{tcolorbox}
+
+\section{Sample Size and Power Calculation Templates}
+
+\subsection{Power Calculation for Continuous Outcomes}
+
+\begin{tcolorbox}[title=Sample Size Calculation for Continuous Primary Outcome]
+For a two-arm randomized trial with a continuous primary outcome, the required sample size per group can be calculated as:
+
+\begin{equation}
+n = \frac{2\sigma^2(Z_{\alpha/2} + Z_{\beta})^2}{\Delta^2}
+\end{equation}
+
+Where:
+\begin{itemize}
+    \item $\sigma^2$ is the variance of the outcome (estimated as [value])
+    \item $Z_{\alpha/2}$ is the critical value for a two-sided significance level $\alpha$ (1.96 for $\alpha = 0.05$)
+    \item $Z_{\beta}$ is the critical value for power $1-\beta$ (0.84 for 80\% power)
+    \item $\Delta$ is the minimum clinically important difference (MCID) to detect (estimated as [value])
+\end{itemize}
+
+For this study:
+\begin{itemize}
+    \item Estimated standard deviation: [value]
+    \item MCID: [value]
+    \item Desired power: 80\%
+    \item Two-sided significance level: 5\%
+    \item Calculated sample size per group: [calculated value]
+    \item Adjusted for expected attrition (20\%): [adjusted value]
+\end{itemize}
+
+The study will therefore aim to recruit a total of [total sample size] participants.
+\end{tcolorbox}
+
+\subsection{Power Calculation for Time-to-Event Outcomes}
+
+\begin{tcolorbox}[title=Sample Size Calculation for Time-to-Event Outcome]
+For a study examining time to a specific event (e.g., time to application abandonment), the required sample size can be calculated as:
+
+\begin{equation}
+n = \frac{4 (Z_{\alpha/2} + Z_{\beta})^2}{[\ln(HR)]^2 \times p_{event}}
+\end{equation}
+
+Where:
+\begin{itemize}
+    \item $HR$ is the hazard ratio to detect (estimated as [value])
+    \item $p_{event}$ is the proportion of participants expected to experience the event (estimated as [value])
+    \item $Z_{\alpha/2}$ and $Z_{\beta}$ are as defined previously
+\end{itemize}
+
+For this study:
+\begin{itemize}
+    \item Expected hazard ratio: [value]
+    \item Expected event rate: [value]
+    \item Desired power: 80\%
+    \item Two-sided significance level: 5\%
+    \item Calculated total sample size: [calculated value]
+    \item Adjusted for expected attrition (20\%): [adjusted value]
+\end{itemize}
+\end{tcolorbox}
+
+\subsection{Power Calculation for Cluster-Randomized Trials}
+
+\begin{tcolorbox}[title=Sample Size Calculation for Cluster-Randomized Trial]
+For a cluster-randomized trial (e.g., randomizing care facilities rather than individual participants), the required sample size must be inflated by the design effect:
+
+\begin{equation}
+DE = 1 + (m - 1) \times ICC
+\end{equation}
+
+Where:
+\begin{itemize}
+    \item $DE$ is the design effect
+    \item $m$ is the average cluster size (estimated as [value])
+    \item $ICC$ is the intracluster correlation coefficient (estimated as [value])
+\end{itemize}
+
+The total required sample size is then:
+
+\begin{equation}
+n_{cluster} = n_{individual} \times DE
+\end{equation}
+
+For this study:
+\begin{itemize}
+    \item Sample size for individual randomization: [value] (as calculated above)
+    \item Average cluster size: [value]
+    \item Estimated ICC: [value]
+    \item Design effect: [calculated value]
+    \item Required sample size accounting for clustering: [adjusted value]
+    \item Number of clusters needed (adjusted for 20\% attrition): [final value]
+\end{itemize}
+\end{tcolorbox}
