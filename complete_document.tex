@@ -1,0 +1,106 @@
+% !TeX program = pdflatex
+\documentclass[12pt,a4paper]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{csquotes}
+\usepackage[style=apa,backend=biber]{biblatex}
+\addbibresource{references.bib}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{titlesec}
+\usepackage{appendix}
+\usepackage{fancyhdr}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\usepackage{tikz}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{setspace}
+\geometry{margin=1in}
+\definecolor{lightblue}{RGB}{173,216,230}
+\definecolor{darkblue}{RGB}{0,0,139}
+\definecolor{lightgray}{RGB}{240,240,240}
+\tcbset{infobox/.style={enhanced,colback=lightblue!30,colframe=darkblue,fonttitle=\bfseries,title=Information},warningbox/.style={enhanced,colback=orange!30,colframe=red!70!black,fonttitle=\bfseries,title=Warning},tipbox/.style={enhanced,colback=green!20,colframe=green!70!black,fonttitle=\bfseries,title=Tip}}
+\onehalfspacing
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\hypersetup{colorlinks=true,linkcolor=blue,filecolor=magenta,urlcolor=cyan,pdftitle={Clinical Trials for Digital Health Applications in Alzheimer's Care},pdfauthor={Reteena Research Team},pdfsubject={Clinical Research Methodology},pdfkeywords={Alzheimer's, Digital Health, Clinical Trials, Memory Tool}}
+\title{\Huge \textbf{Clinical Trials for Digital Health Applications in Alzheimer's Care} \\ \vspace{0.5cm}
+\Large A Comprehensive Guide for Memory Enhancement Applications}
+\author{Reteena Research Team}
+\date{\today}
+\begin{document}
+\frontmatter
+\maketitle
+\tableofcontents
+\listoffigures
+\listoftables
+\chapter*{Preface}
+\addcontentsline{toc}{chapter}{Preface}
+This comprehensive guide provides detailed instructions for conducting clinical trials of digital health applications designed for Alzheimer's patients, with a specific focus on memory enhancement tools and reminiscence therapy applications. The document is intended for researchers, clinicians, software developers, and other stakeholders involved in the development and evaluation of digital interventions for neurodegenerative conditions.
+
+\chapter*{Executive Summary}
+\addcontentsline{toc}{chapter}{Executive Summary}
+Digital health applications offer promising avenues for supporting Alzheimer's patients through various stages of cognitive decline. This guide outlines the necessary steps, considerations, and best practices for rigorously testing such applications to ensure they are safe, effective, and beneficial to the target population. The document covers the entire clinical trial process from pre-trial planning to post-trial analysis and regulatory submissions.
+\mainmatter
+% --- CHAPTERS ---
+% ---- Chapter 1 ----
+<<CHAPTER1>>
+% ---- Chapter 2 ----
+<<CHAPTER2>>
+% ---- Chapter 3 ----
+<<CHAPTER3>>
+% ---- Chapter 4 ----
+<<CHAPTER4>>
+% ---- Chapter 5 ----
+<<CHAPTER5>>
+% ---- Chapter 6 ----
+<<CHAPTER6>>
+% ---- Chapter 7 ----
+<<CHAPTER7>>
+% ---- Chapter 8 ----
+<<CHAPTER8>>
+% ---- Chapter 9 ----
+<<CHAPTER9>>
+% ---- Chapter 10 ----
+<<CHAPTER10>>
+\backmatter
+\chapter{Glossary}
+\begin{description}[style=nextline]
+\item[Alzheimer's Disease (AD)] A progressive neurodegenerative disease that causes problems with memory, thinking, and behavior.
+\item[Clinical Trial] A research study performed with human participants to evaluate the safety and efficacy of medical interventions.
+\item[Digital Health Application] Software programs or applications designed to assist in the diagnosis, management, or treatment of medical conditions.
+\item[FDA] Food and Drug Administration, the regulatory body in the United States responsible for protecting public health.
+\item[HIPAA] Health Insurance Portability and Accountability Act, which provides data privacy and security provisions for safeguarding medical information.
+\item[IRB] Institutional Review Board, a committee that reviews and monitors research involving human subjects.
+\item[MMSE] Mini-Mental State Examination, a 30-point questionnaire used to measure cognitive impairment.
+\item[Reminiscence Therapy] A treatment that involves the discussion of past activities, events, and experiences with another person or group of people, typically with the aid of prompts such as photographs, familiar items, music, or other memorabilia.
+\item[SaMD] Software as a Medical Device, software intended to be used for medical purposes without being part of a hardware medical device.
+\item[User Experience (UX)] A person's emotions and attitudes about using a particular product, system, or service.
+\end{description}
+\chapter{Bibliography}
+\printbibliography[heading=none]
+% --- APPENDICES ---
+\begin{appendices}
+<<APPENDIX_A>>
+<<APPENDIX_B>>
+<<APPENDIX_C>>
+<<APPENDIX_D>>
+\end{appendices}
+\end{document}
